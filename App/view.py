@@ -81,6 +81,11 @@ while True:
 
 
 
+        print('Primer libro cargado: ' + str(lt.firstElement(books)))
+
+
+        # TO-DO: Modificación de Est-2 en el Lab 2
+
     elif int(inputs[0]) == 2:
         print("Cargando información de tags....")
         tags = loadTags()
